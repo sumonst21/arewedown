@@ -1681,13 +1681,13 @@ handlebars@4.5.3:
   optionalDependencies:
     uglify-js "^3.1.4"
 
-handlebars@4.7.7:
-  version "4.7.7"
-  resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.7.7.tgz#9ce33416aad02dbd6c8fafa8240d5d98004945a1"
-  integrity sha512-aAcXm5OAfE/8IXkcZvCepKU3VzW1/39Fb5ZuqMtgI/hT8X2YgoMvBY5dLhq/cpOvw7Lk1nK/UF71aLG/ZnVYRA==
+handlebars@4.7.9:
+  version "4.7.9"
+  resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.7.9.tgz#6f139082ab58dc4e5a0e51efe7db5ae890d56a0f"
+  integrity sha512-4E71E0rpOaQuJR2A3xDZ+GM1HyWYv1clR58tC8emQNeQe3RH7MAzSbat+V0wG78LQBo6m6bzSG/L4pBuCsgnUQ==
   dependencies:
     minimist "^1.2.5"
-    neo-async "^2.6.0"
+    neo-async "^2.6.2"
     source-map "^0.6.1"
     wordwrap "^1.0.0"
   optionalDependencies:
@@ -2361,9 +2361,10 @@ lowercase-keys@^2.0.0:
     handlebars-layouts "3.1.4"
     madscience-fsUtils "https://github.com/shukriadams/node-fsUtils.git#0.0.6"
 
-"madscience-httputils@https://github.com/shukriadams/node-httpUtils.git#0.0.7":
+"madscience-httputils@https://github.com/shukriadams/node-httpUtils.git#0.0.8":
   version "0.0.2"
-  resolved "https://github.com/shukriadams/node-httpUtils.git#5d02227a76648088d40847c104736a1c08f2f161"
+  uid ed9ea42a4ac14df309f8cb81a85a5d78b2476e72
+  resolved "https://github.com/shukriadams/node-httpUtils.git#ed9ea42a4ac14df309f8cb81a85a5d78b2476e72"
   dependencies:
     fs-extra "6.0.0"
     request "2.88.0"
@@ -2536,7 +2537,7 @@ negotiator@0.6.2:
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.2.tgz#feacf7ccf525a77ae9634436a64883ffeca346fb"
   integrity sha512-hZXc7K2e+PgeI1eDBe/10Ard4ekbfrrqG8Ep+8Jmf4JID2bNg7NvCPOZN+kfF574pFQI7mum2AUqDidoKqcTOw==
 
-neo-async@^2.6.0:
+neo-async@^2.6.0, neo-async@^2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
